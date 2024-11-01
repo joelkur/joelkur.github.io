@@ -20,7 +20,7 @@ My email address is of the form joel.kuronen@helsinki.fi.
 
 ## Courses I've Taken
 
-[Haskell MOOC](https://courses.helsinki.fi/enjoying-cheese-I), fall 2024
+[Haskell MOOC](https://haskell.mooc.fi), fall 2024
 
 [Devops with Docker](https://devopswithdocker.com/), fall 2021(ish?)
 
