@@ -56,3 +56,44 @@ directories and working with files, but in the terminal.
 ### What I learned
 I was already quite familiar with the topics in week 1, but I used the opportunity to try out [emacs](https://www.gnu.org/software/emacs/) on week 1.
 
+## Week 2 - Unix file system, processes and remote servers
+
+### Unix file system
+Week 2 delved deeper to the concept of Unix filesystem
+* Symbolic links
+  * Symbolic links are files that actually points to another file in some other location on the computer
+* File permissions
+  * Can be set differently on user and group level
+
+### Processes
+Week 2 also teached how processes works on Unix systems, and how to find and stop them.
+
+| Command | Description |
+| --- | --- |
+| `ps` | Can be used to find a process |
+| `kill` | Can be used to kill a given process |
+| `killall` | Can be used to kill all processes that matches a given name |
+
+### Remote servers
+There was also a section about working with remote servers.
+
+| Command | Description |
+| --- | --- |
+| `ssh` | Connect to a remote server |
+| `scp` | Copy a file from the server to the local machine, or vice versa |
+
+### What I learned
+The most useful thing that I learned was from the materials about processes,
+that processes can be started and put directly to a background process, e.g.
+```bash
+htop &
+```
+
+And then, that process can be brought back to the foreground with command
+```bash
+fg
+```
+
+I also discovered that the process can be put back to background
+by pressing `ctrl + z`.
+
