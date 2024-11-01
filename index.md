@@ -30,6 +30,8 @@ and many others...
 
 ## Projects
 
+[Cmdline course](https://github.com/joelkur/cmdline-course)
+
 ## Misc. 
 
 [CV](/assets/documents/cv.pdf)
