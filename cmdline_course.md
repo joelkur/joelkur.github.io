@@ -179,3 +179,34 @@ on a book or other larger text.
 ### What I learned
 I learned that `sed` is very useful. I had seen it being used before, but didn't really understand it.
 I could see myself using `sed` in the future if I need to automate text editing.
+
+## Week 5 - Scripting and Configuration Files
+
+This week introduced shell scripting and configuring bash.
+
+### Shell scripts
+Shell scripts are executable files. To make a file executable, one can run `chmod +x file`.
+
+Shell scripts can be used to automate a set of commands by executing the script.
+
+For example, to make a script that adds an exclamation mark to each line of a file, one could write a script
+```bash
+filename=$1
+while read -r line;
+do
+  echo ${line}!
+done < "$filename";
+```
+
+In the above example, the `filename` is given by user as an argument when executing that script (e.g. `./path/to/script.sh somefile.txt`).
+
+### Configuration files
+The `bash` shell can be configured using a `.bashrc` file in the home directory. For example it could be used to define aliases
+
+```bash
+# .bashrc
+alias ga="git add ."
+```
+
+### What I learned
+I didn't know about the `case...esac` statement of shell scripts. This seems to be very useful.
