@@ -20,9 +20,13 @@ My email address is of the form joel.kuronen@helsinki.fi.
 
 ## Courses I've Taken
 
-[Enjoying Cheese I](https://courses.helsinki.fi/enjoying-cheese-I), fall 2018
+[Haskell MOOC](https://courses.helsinki.fi/enjoying-cheese-I), fall 2024
 
-[Feline Avoidance](https://courses.helsinki.fi/feline-avoidance), fall 2018
+[Devops with Docker](https://devopswithdocker.com/), fall 2021(ish?)
+
+[Full Stack Open](https://fullstackopen.com/), spring 2019(ish?)
+
+and many others...
 
 ## Projects
 
