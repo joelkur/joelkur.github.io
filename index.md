@@ -12,7 +12,7 @@ My hobbies are playing the guitar and attempting to make music.
 
 ## Find me on
 
-[LinkedIn](https://fi.linkedin.com/mouse-mousekewitz), [GitHub](https://github.com/mokewitz)
+[GitHub](https://github.com/joelkur)
 
 ## Contact
 
