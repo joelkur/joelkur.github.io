@@ -142,3 +142,40 @@ This could even be extended by passing that whole thing to a text editor like `n
 ```bash
 nano $(grep -lR "keyword" ./ | fzf --preview 'less {}')
 ```
+
+This has become a part of my everyday workflow now.
+
+## Week 4 - Advanced Corpus Processing
+
+This week extends from previous week, performing more challenging tasks to analyze
+text files.
+Here was also introduced how to transform a text file into a sentence per line format
+by using `sed`, `tr` and `grep`.
+It was also teached how to transform a text file to n-grams using `sed`.
+
+### Commands introduced
+
+| Command | Description |
+| --- | --- |
+| `diff` | Compares files line by line and highlights differences |
+| `sed` | Stream editor for filtering and replacing text |
+
+### Text processing
+
+These tools can be used together to do in-depth analysis of text. For example,
+to find the most common last word in text:
+```bash
+echo -e "First line\nSecond word\nThird word" | sed -E 's/.* //' | uniq -c | sort -nr | head -1
+```
+
+Here are three lines, first of which ends with the word "line", and the last two lines ends with "word".
+We use `sed` to transform each line to last word only, then `uniq -c` to find how many occurences
+there is of each last word. `sort -nr` sorts (in reversed order) based on the count, and `head -1` to get
+the most common word.
+
+Obviously this is a small example, but could be very useful for doing analysis e.g.
+on a book or other larger text.
+
+### What I learned
+I learned that `sed` is very useful. I had seen it being used before, but didn't really understand it.
+I could see myself using `sed` in the future if I need to automate text editing.
