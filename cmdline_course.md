@@ -210,3 +210,41 @@ alias ga="git add ."
 
 ### What I learned
 I didn't know about the `case...esac` statement of shell scripts. This seems to be very useful.
+
+## Week 6 - Installing and Running programs
+
+This week introduced how to install system-wide and python packages from the terminal.
+Also, `make` command, a build utility tool, was introduced.
+
+### Installing programs
+
+#### System-wide
+On Ubuntu or other Debian based systems packages can be installed with `apt-get`
+
+```bash
+apt-get install diffuse
+```
+#### Python
+Python modules can be installed using `pip`.
+```bash
+python3 -m pip install package
+```
+
+### Make
+Make is an utility tool for building programs or other projects. It can also be used for automation,
+for example on this course it was used to generate word frequency list files, sequence list files, etc,
+by only running one command.
+
+Makefiles follow a structure, that defines the target, it's dependencies, and commands to build the target.
+
+```bash
+zip.gz: a.txt b.txt
+  gzip $@ $^
+```
+
+In the above example is defined a rule for building a `zip.gz` file, that takes `a.txt` and `b.txt` as dependencies.
+Then the command defines what this rule actually does. In this case, it creates a compressed file with `gzip`.
+The command becomes `gzip zip.gz a.txt b.txt`
+
+### What I learned
+I learned that `make` is an useful tool, that could be used to automate tasks.
