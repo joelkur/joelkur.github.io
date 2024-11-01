@@ -6,6 +6,10 @@ layout: default
 
 <img src="assets/images/me.svg" alt="Photo" hspace="20" width="30%" align="right" /> 
 
+I'm a full stack dev and a computer science student. I like simplicity and minimalism.
+
+My hobbies are playing the guitar and attempting to make music.
+
 ## Find me on
 
 [LinkedIn](https://fi.linkedin.com/mouse-mousekewitz), [GitHub](https://github.com/mokewitz)
