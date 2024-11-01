@@ -248,3 +248,51 @@ The command becomes `gzip zip.gz a.txt b.txt`
 
 ### What I learned
 I learned that `make` is an useful tool, that could be used to automate tasks.
+
+## Week 7 - Version Control
+
+### Git
+
+This week was an introduction to version control, specifically using `git`.
+Version control basically allows making snapshots of a project by creating commits,
+e.g. when a file is changed and a commit is created of that change, it is possible
+to later get back to that state of the file even if it is completely changed later.
+
+Git projects are called repositories, and repositories can be pushed to a remote server like [GitHub](https://github.com/).
+The repository can then be accessed from other machines, and the state of the remote server can be fetched from a local machine.
+Multiple machines can therefore be synchronized using git.
+
+To create a commit, one must first stage a file
+```bash
+git add file_to_be_staged
+```
+
+The status of a local git repository can be checked with
+```bash
+git status
+```
+
+A commit of the staged changes can be made with
+```bash
+git commit -m "message of the commit"
+```
+
+Committed changes can be pushed to a remote repository with
+```bash
+git push
+```
+
+### Jekyll
+
+[Jekyll](https://jekyllrb.com/) is a static site generator written in [ruby](https://www.ruby-lang.org/en/).
+It allows to create a website by writing [markdown](https://en.wikipedia.org/wiki/Markdown) files, that are
+transformed to [HTML](https://fi.wikipedia.org/wiki/HTML) by Jekyll.
+
+### GitHub Pages
+[GitHub Pages](https://pages.github.com/) can be used to host a static website. This plays nicely when using Jekyll.
+
+### What I learned
+I hadn't heard of Jekyll before, but it seems to be a very easy way to set up a website. It also seems to be quite
+customizable.
+
+I also hadn't used GitHub Pages before, so it was nice to see how easy it was to set up.
