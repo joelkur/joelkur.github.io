@@ -100,6 +100,9 @@ by pressing `ctrl + z`.
 ## Week 3 - Basic Corpus Processing
 
 This week started to get more technical and relevant in terms of language technology.
+It was teached how to e.g. analyze a text file by generating a word frequency list out of it,
+and then performing tasks on the word frequency list to find out e.g. how many words
+in the text file ends with a sequence.
 
 ### Commands introduced
 
@@ -108,6 +111,7 @@ This week started to get more technical and relevant in terms of language techno
 | `grep` | Can be used to search patterns in given input |
 | `tr` | Can be used to edit the input, e.g. replacing characters with other characters |
 | `wc` | Can be used to e.g. print word counts for input |
+| `uniq` | Filters out repeated lines in input |
 
 ### Pipelines
 Pipelines was first introduced here. Pipelines are basically ways to combine commands,
